@@ -16,7 +16,7 @@ markdown_extensions:
   #- mdx_math
 extra_javascript:
   - mathjax_config.js
-  #- mathjax/es5/tex-chtml.js
+  - MathJax/es5/tex-chtml.js
   #- mathjax/MathJax.js?config=TeX-MML-AM_CHTML
   #- https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js
+  #- https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js
