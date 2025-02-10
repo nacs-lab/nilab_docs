@@ -1,0 +1,22 @@
+site_name: Ni Lab Documentation
+nav:
+  - Home: index.md
+  - Computer Concepts: 
+    - Computer Systems: computer_concepts/system_management.md
+    - What Language Should I Use?: computer_concepts/languages.md
+    - Networking: computer_concepts/networking.md
+  - Software Documentation:
+    - Overview: software/overview.md
+theme:
+  name: mkdocs
+  color_mode: auto
+  user_color_mode_toggle: true
+markdown_extensions:
+  - pymdownx.arithmatex
+  #- mdx_math
+extra_javascript:
+  - mathjax_config.js
+  #- mathjax/es5/tex-chtml.js
+  #- mathjax/MathJax.js?config=TeX-MML-AM_CHTML
+  #- https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-chtml.min.js
