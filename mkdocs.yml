@@ -11,6 +11,8 @@ theme:
   name: mkdocs
   color_mode: auto
   user_color_mode_toggle: true
+plugins:
+  - search
 markdown_extensions:
   - pymdownx.arithmatex
   #- mdx_math
